@@ -475,8 +475,7 @@ pairwise constructs as found in e.g. `let` and `cond`.
   are rare in practice.
 <sup>[[link](#forward-references)]</sup>
 
-## <a name="third-party-dependencies"></a>Third-Party Dependencies
-   <sup>[[link](#third-party-dependencies)]</sup>
+## Third-Party Dependencies
 
 * <a name="clojure-contrib"></a> `clojure-contrib` <sup>[[link](#clojure-contrib)]</sup>
 
