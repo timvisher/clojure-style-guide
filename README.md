@@ -35,6 +35,7 @@ You can generate a PDF or an HTML copy of this guide using
 ## Table of Contents
 
 * [Source Code Layout & Organization](#source-code-layout--organization)
+* [Third-Party Dependencies](#third-party-dependencies)
 * [Syntax](#syntax)
 * [Naming](#naming)
 * [Collections](#collections)
@@ -473,6 +474,20 @@ pairwise constructs as found in e.g. `let` and `cond`.
   Avoid forward references.  They are occasionally necessary, but such occasions
   are rare in practice.
 <sup>[[link](#forward-references)]</sup>
+
+## <a name="third-party-dependencies"></a>Third-Party Dependencies
+   <sup>[[link](#third-party-dependencies)]</sup>
+
+* <a name="clojure-contrib"></a> `clojure-contrib` <sup>[[link](#clojure-contrib)]</sup>
+
+  `clojure-contrib` has been deprecated since Clojure 1.3 and should
+  not be a dependency if at all possible.
+
+  A decently comprehensive list of where to go to find the new
+  libraries that replaced it can be found
+  [here](http://dev.clojure.org/display/community/Where+Did+Clojure.Contrib+Go).
+  Failing that, ask in #clojure@freenode or consider porting it
+  yourself!
 
 ## Syntax
 
