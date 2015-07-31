@@ -145,19 +145,19 @@ when there are no arguments on the same line as the function name.
       :thing2 thing2})
     ```
 
-* <a name="optional-new-line-after-fn-name"></a>
-  Optionally omit the new line between the function name and argument
+* <a name="new-line-after-fn-name"></a>
+  Omit the new line between the function name and argument
   vector for `defn` when there is no docstring.
-<sup>[[link](#optional-new-line-after-fn-name)]</sup>
+  <sup>[[link](#new-line-after-fn-name)]</sup>
 
     ```Clojure
     ;; good
-    (defn foo
-      [x]
+    (defn foo [x]
       (bar x))
 
-    ;; good
-    (defn foo [x]
+    ;; bad
+    (defn foo
+      [x]
       (bar x))
 
     ;; bad
